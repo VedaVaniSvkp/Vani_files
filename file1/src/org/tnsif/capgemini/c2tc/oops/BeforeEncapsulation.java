@@ -6,7 +6,6 @@ class Human
 	String name;
 	
 }
-
 public class BeforeEncapsulation {
 
 	public static void main(String[] args) {

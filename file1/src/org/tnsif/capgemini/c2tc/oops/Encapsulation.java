@@ -13,7 +13,7 @@ class Human1{
 		this.name = name;
 	}
 	public String getName() {
-		return name;
+		return name; 
 	}
 	
 }

@@ -14,7 +14,7 @@ public class Abstraction {
 }
 abstract class MaheshDemo //2015
 {
-	public void calling()
+	public void calling() //concrete method
 	{
 		System.out.println("Calling");
 	}
@@ -29,7 +29,7 @@ abstract class SureshDemo extends MaheshDemo //2016
 		System.out.println("Phone is integrated with AI Integration");
 	}
 }
-class RameshDemo extends SureshDemo //
+class RameshDemo extends SureshDemo //2017
 {
 	public void SatelliteComm()
 	{

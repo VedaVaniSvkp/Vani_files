@@ -7,7 +7,7 @@ public class KIA_motors {
 	int speed;
 	
 	void display() {
-		System.out.println("This is KIA motors, Welcome to our show");
+		System.out.println("This is KIA motors, Welcome to our show room");
 	}
 	void welcome() {
 		System.out.println("Welcome");
