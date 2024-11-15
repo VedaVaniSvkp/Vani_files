@@ -3,21 +3,27 @@ package basic;
 public class Increment_Decrement_Demo {
 
 	public static void main(String[] args) {
-		int a = 10;
+		int a = 10, b, c, d, e;
 		
 		//post increment
-		System.out.println("a++: "+a++);//print first then increment
-		System.out.println("after post-increment a "+a);//11
+		b= a++;
+		System.out.println("b=a++ = "+b);//print first then increment
+		System.out.println("after post-increment a = "+a);//11
 		
 		//pre increment 
-		System.out.println("++a: "+ ++a);//increment first, then prints
+		c = ++a;
+		System.out.println("c=++a = "+ c);//increment first, then prints
+		System.out.println("after pre-increment a = "+a);
 		
 		//post decrement
-		System.out.println("a--: "+a--);//prints first then decrement //12
-		System.out.println("After pre decrement a "+a);//11
+		d = a--;
+		System.out.println("d=a-- = "+d);//prints first then decrement //12
+		System.out.println("After post decrement a = "+a);//11
 		
 		//pre decrement
-		System.out.println("--a: "+ --a);
+		e = --a;
+		System.out.println("e=--a = "+ e);
+		System.out.println("after pre decrement a = "+a);
 	}
 
 }
