@@ -1,9 +1,39 @@
 package org.tnsif.capgemini.c2tc.oops;
 
+class Book
+{
+	String title;
+	int page;
+	Book() // Constructor with no parameter
+	{
+		title = "Unknown";
+		page = 0;
+	}
+	Book(String title)//constructor with one parameter
+	{
+		this.title = title;
+		page = 140;
+	}
+	Book(String title, int page) // Constructor with two parameter
+	{
+		this.title = title;
+		this.page = page;
+	}
+	void display()
+	{
+		System.out.println("Title: "+title+" pages: "+page);
+	}
+}
+
 public class Constructor_Overloading {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Book book1 = new Book();
+		Book book2 = new Book("Java Programming");
+		Book book3 = new Book("Python Programming", 500);
+		book1.display();
+		book2.display();
+		book3.display();
 
 	}
 
