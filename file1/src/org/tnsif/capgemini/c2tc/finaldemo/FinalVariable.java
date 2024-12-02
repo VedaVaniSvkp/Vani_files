@@ -4,7 +4,7 @@ public class FinalVariable {
 
 	public static void main(String[] args) {
 		final int mark_scored_vani = 50;
-		//mark_scored_vani = 80; //final variable can't be changed 
+		mark_scored_vani = 80; //final variable can't be changed 
 		System.out.println(mark_scored_vani);
 
 	}

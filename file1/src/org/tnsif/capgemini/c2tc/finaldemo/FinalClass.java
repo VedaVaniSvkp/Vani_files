@@ -1,6 +1,6 @@
 package org.tnsif.capgemini.c2tc.finaldemo;
 
-class calc
+ final class calc
 {
 	public void show()
 	{
