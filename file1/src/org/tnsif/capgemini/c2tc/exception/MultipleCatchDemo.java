@@ -8,11 +8,11 @@ public class MultipleCatchDemo {
 		{
 			numbers[9] = 50/0;
 		}
-		catch(ArrayIndexOutOfBoundException e)
+		catch(ArrayIndexOutOfBoundsException e)
 		{
 			System.out.println("Array index is out of bounds " +e.getMessage());
 		}
-		catch(ArithemeticException e)
+		catch(ArithmeticException e)
 		{
 			System.out.println(e);
 			System.out.println("An unexpected error occured " +e.getMessage());
