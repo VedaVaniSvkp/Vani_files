@@ -31,8 +31,6 @@ public class GenericClass {
 		DataContainer<Double> integerContainer2 = new DataContainer<>(26.9);
 		integerContainer2.displayData();
 
-
-
 	}
 
 }
