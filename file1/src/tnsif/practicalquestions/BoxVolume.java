@@ -8,10 +8,10 @@ public class BoxVolume {
 		System.out.println("Volume of box: "+result);
 		return length*breadth*height;
 	}
-	public BoxVolume(int x, int y, int z) {
-		this.length = x;
-		this.breadth = y;
-		this.height = z;
+	public BoxVolume(int len, int bre, int hei) {
+		this.length = len;
+		this.breadth = bre;
+		this.height = hei;
 	}
 	
 	public static void main(String[] args) {
