@@ -7,8 +7,8 @@ public class Employee {
 	
 	public int display() {
 		System.out.println("Name of the Employee: "+name);
-		System.out.println("Age of the Employee: "+age);
-		System.out.println("Salary of the Employee: "+salary);
+		System.out.println("Age of the Employee "+name+" : "+age);
+		System.out.println("Salary of the Employee "+name+" : "+salary);
 		return 0;
 	}
 	public static void main(String[] args) {
