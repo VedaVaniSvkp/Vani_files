@@ -1,4 +1,4 @@
-package org.tnsif.capgemini.c2tc.practicalquestions;
+package tnsif.practicalquestions;
 
 import java.util.Scanner;
 
